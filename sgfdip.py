@@ -3,9 +3,9 @@ import os
 from ipwhois import IPWhois
 
 # 配置
-CF_API_KEY = os.getenv('CF_API_KEY')
-CF_ZONE_ID = os.getenv('CF_ZONE_ID')
-CF_DNS_NAME = os.getenv('CF_DNS_NAME')
+CF_API_KEY = "1f0wgcPvaFHCd3f2MQbHXZz5mejKunBrgSFh1CWz"
+CF_ZONE_ID = "805d287af6a02c89dc06fb2c3970b854"
+CF_DNS_NAME = "sg.alex-hou.cf"  # 您的二级域名
 FILE_PATH = 'sgfd_ips.txt'
 SGCS_FILE_PATH = 'CloudflareST/sgcs.txt'
 
